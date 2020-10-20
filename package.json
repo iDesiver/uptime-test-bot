@@ -1,0 +1,22 @@
+{
+  "name": "uptime-test-bot",
+  "version": "1.0.0",
+  "description": "Uptime Test BOT for Discord",
+  "main": "index.js",
+  "dependencies": {
+    "ascii-table": "^0.0.9",
+    "discord.js": "^12.3.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iDesiver/uptime-test-bot.git"
+  },
+  "author": "iDesiver",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iDesiver/uptime-test-bot/issues"
+  },
+  "homepage": "https://github.com/iDesiver/uptime-test-bot#readme"
+}
