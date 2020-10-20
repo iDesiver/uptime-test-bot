@@ -8,7 +8,7 @@ client.on("ready", () => console.log(`Up at ${client.user.tag} (${client.user.id
 
 client.on("message", async message => {
     if(message.author.bot) return
-    if(message.content !== "uptime" || message.author.id !== "203838646426664960") return
+    if(message.content !== "uptime") return
     
     const uptime = new Date(new Date() - client.readyAt)
     const table = new ascii()
